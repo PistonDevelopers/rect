@@ -1,0 +1,18 @@
+[package]
+name = "piston-rect"
+version = "0.1.0"
+authors = [
+    "bvssvni <bvssvni@gmail.com>"
+]
+keywords = ["rectangle", "layout", "piston"]
+description = "Helper methods for computing simple rectangle layout"
+license = "MIT"
+repository = "https://github.com/PistonDevelopers/rect.git"
+homepage = "https://github.com/PistonDevelopers/rect"
+
+[lib]
+name = "rect"
+path = "./src/lib.rs"
+
+[dependencies]
+piston-float = "0.2.0"
